@@ -2,7 +2,7 @@ import { Fragment, useEffect, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { useRouter } from 'next/router'
 export default function Loading() {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
 
   const cancelButtonRef = useRef(null)
   const router = useRouter()
